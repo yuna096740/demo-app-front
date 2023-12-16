@@ -1,5 +1,6 @@
 import React from "react";
 // import axios from "axios";
+import "./App.css";
 
 function App() {
   // const [data, setData] = React.useState();
@@ -11,13 +12,21 @@ function App() {
   //   });
   // };
   return (
-    <div>
-      <div>Deploy Test in Vercel</div>
-      {/* {data ? (
+    <div className="App">
+      <header className="App-header">
+        <div>
+          <div className="test">
+            <h2>Deploy Test in Vercel</h2>
+          </div>
+          <p>Produced by yuna9674</p>
+        </div>
+
+        {/* {data ? (
         <div>{data.data}</div>
-      ) : (
-        <button onClick={GetData}>データを取得</button>
-      )} */}
+        ) : (
+          <button onClick={GetData}>データを取得</button>
+        )} */}
+      </header>
     </div>
   );
 }
