@@ -1,0 +1,34 @@
+.nav {
+    background-color: black;
+    height: 10vh;
+}
+
+.nav ul {
+    width: auto;
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav p {
+    color: azure;
+    padding: 20px 10px;
+    display: block;
+    font-size: large;
+}
+
+@media screen and (max-width: 640px) {
+    .nav {
+        height: auto;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nav li {
+        border-bottom: solid 1px #fff;
+    }
+}
