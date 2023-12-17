@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import axios from "axios";
 
+import { endpoint } from "../../settings/endpoints.tsx";
 import "./DebugStyle.css";
 
 function Debug() {
   const [data, setData] = useState<any>();
-  const url = "http://127.0.0.1:8000/ping";
+  const apiUrl = endpoint("ping");
 
   const GetData = () => {
-    axios.get(url).then((res) => {
+    axios.get(apiUrl).then((res) => {
       setData(res.data);
     });
   };
