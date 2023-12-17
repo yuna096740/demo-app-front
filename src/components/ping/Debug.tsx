@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-import "./Debug.css";
+import "./DebugStyle.css";
 
 function Debug() {
   const [data, setData] = useState<any>();
@@ -18,7 +18,7 @@ function Debug() {
       {data ? (
         <div>{data.data}</div>
       ) : (
-        <button onClick={GetData}>データを取得</button>
+        <button onClick={GetData}>データ取得Test</button>
       )}
     </div>
   );
