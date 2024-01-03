@@ -8,6 +8,7 @@ import Navbar from "./components/navBar/navBar.tsx";
 import Footer from "./components/footer/footer.tsx";
 
 function App() {
+  console.log(process.env.API_KEY);
   return (
     <div className="App">
       <BrowserRouter basename="/">

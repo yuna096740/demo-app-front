@@ -1,5 +1,4 @@
-const devUrl = "http://127.0.0.1:8000/";
-const prodUrl = "";
+const devUrl = "http://127.0.0.1:8007/";
 
 export const endpoint = (url) => {
   return devUrl + url;
