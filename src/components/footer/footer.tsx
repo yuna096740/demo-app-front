@@ -1,12 +1,10 @@
 import React from "react";
-import './footerStyle.css';
+import "./footerStyle.css";
 
 const Footer = () => {
-    return (
-        <footer className="footer">
-            demo-app produced by yuna096740
-        </footer>
-    )
-}
+  return (
+    <footer className="footer">Photographer. Rumika. Firest Portfolio.</footer>
+  );
+};
 
 export default Footer;

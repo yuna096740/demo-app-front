@@ -11,6 +11,7 @@ const Top = () => {
         <div className="title">
           <p>Photographer.</p>
           <p>Rumika.</p>
+          <p>First Portfolio.</p>
         </div>
         {/* <img src={TopImg} className="top-image" alt="" /> */}
 
