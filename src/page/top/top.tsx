@@ -9,9 +9,9 @@ const Top = () => {
     <div className="top">
       <header className="App-header">
         <div className="title">
-          <p>Photographer.</p>
-          <p>Rumika.</p>
-          <p>First Portfolio.</p>
+        <p>PHOTOGRAPHER.</p>
+        <p>RUMIKA.</p>
+        <p>FIRST PORTFOLIO.</p>
         </div>
         {/* <img src={TopImg} className="top-image" alt="" /> */}
 
