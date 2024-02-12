@@ -19,7 +19,7 @@
 /* レスポンシブ対応 */
 @media screen and (max-width: 640px) {
   .title {
-    font-size: 65px; /* 適切なサイズに変更 */
+    font-size: 40px; /* 適切なサイズに変更 */
     margin: 150px 10px; /* 適切なマージンに変更 */
   }
 }
