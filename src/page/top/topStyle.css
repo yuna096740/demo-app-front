@@ -1,9 +1,24 @@
-.test {
-    height: 20vmin;
-    color: white;
-  }
+.App-header {
+  min-height: 80vh;
+  display: flex;
+  color: white;
+  
+  /* 背景画像 */
+  background-color: #070708;
+  background-image: url(../../assets/images/star.jpg);
+  background-size: cover;
+}
 
-.top-image {
-    width: 40vh;
-    margin: 20px 0;
+.title {
+  font-size: 180px;
+  margin: 30px;
+}
+
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 620px) {
+  .title {
+    font-size: 65px; /* 適切なサイズに変更 */
+    margin: 150px 10px; /* 適切なマージンに変更 */
+  }
 }

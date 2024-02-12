@@ -1,6 +1,6 @@
 import React from "react";
-import Debug from "../../components/ping/Debug.tsx";
-import TopImg from "../../assets/images/topDemo.jpg";
+// import Debug from "../../components/ping/Debug.tsx";
+// import TopImg from "../../assets/images/star.jpg";
 
 import "./topStyle.css";
 
@@ -8,13 +8,13 @@ const Top = () => {
   return (
     <div className="top">
       <header className="App-header">
-        <div className="test">
-          <h2>Deploy Test in Vercel</h2>
+        <div className="title">
+          <p>Photographer.</p>
+          <p>Rumika.</p>
         </div>
-        <img src={TopImg} className="top-image" alt="Top Demo Img" />
+        {/* <img src={TopImg} className="top-image" alt="" /> */}
 
-        <Debug />
-
+        {/* <Debug /> */}
       </header>
     </div>
   );
